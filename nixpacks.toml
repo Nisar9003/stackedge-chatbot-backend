@@ -1,2 +1,15 @@
 [phases.setup]
 nixPkgs = ["python311"]
+```
+
+---
+
+**File 3: `requirements.txt`** bhi update karo:
+```
+fastapi
+uvicorn
+pinecone
+voyageai
+groq
+python-dotenv
+pydantic
