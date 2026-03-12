@@ -1,0 +1,16 @@
+[build]
+builder = "NIXPACKS"
+
+[build.nixpacksPlan.phases.setup]
+nixPkgs = ["python311"]
+```
+
+Aur `requirements.txt` mein versions hata do — sirf package names rakho:
+```
+fastapi
+uvicorn
+pinecone
+voyageai
+groq
+python-dotenv
+pydantic
